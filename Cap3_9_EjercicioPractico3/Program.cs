@@ -1,4 +1,6 @@
-﻿using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
+﻿/*  Hacer un programa que calcule el impuesto de un producto, pero coloque un impuesto del 0% si el producto es medicina. */
+
+using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
 using System.Collections.Generic;   // Namespace adicionales para nuestro proyecto
 using System.Text;                  // Namespace adicionales para nuestro proyecto
 

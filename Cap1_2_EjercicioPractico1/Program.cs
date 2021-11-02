@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*  Cree un proyecto nuevo que imprima su nombre en la ventana de la consola.
+    Agregue más mensajes a la aplicación que ha creado.
+*/
+using System;
 
 namespace Cap1_2_EjercicioPractico1
 {

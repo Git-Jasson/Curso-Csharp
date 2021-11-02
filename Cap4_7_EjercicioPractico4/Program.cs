@@ -1,4 +1,6 @@
-﻿using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
+﻿/*  Hacer un programa que encuentre los números primos que existen entre el 1 y el 1000.    */
+
+using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
 using System.Collections.Generic;   // Namespace adicionales para nuestro proyecto
 using System.Text;                  // Namespace adicionales para nuestro proyecto
 

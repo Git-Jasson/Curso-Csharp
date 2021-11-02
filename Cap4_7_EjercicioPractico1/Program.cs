@@ -1,4 +1,6 @@
-﻿using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
+﻿/*  Hacer un programa que muestre la tabla de multiplicar del 1 al 10 de cualquier número.  */
+
+using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
 using System.Collections.Generic;   // Namespace adicionales para nuestro proyecto
 using System.Text;                  // Namespace adicionales para nuestro proyecto
 

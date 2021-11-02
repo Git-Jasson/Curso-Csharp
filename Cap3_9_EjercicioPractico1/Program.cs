@@ -1,4 +1,6 @@
-﻿using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
+﻿/*  Hacer un programa que le pida al usuario un número y la computadora responda si es par o impar. */
+
+using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
 using System.Collections.Generic;   // Namespace adicionales para nuestro proyecto
 using System.Text;                  // Namespace adicionales para nuestro proyecto
 

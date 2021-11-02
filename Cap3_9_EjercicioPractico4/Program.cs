@@ -1,4 +1,6 @@
-﻿using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
+﻿/*  Hacer un programa que le pida al usuario un número del 1 al 7 y escriba el nombre del día que corresponde ese número en la semana. */
+
+using System;                       // Namespace predeterminado que requiere nuestro proyecto para funcionar
 using System.Collections.Generic;   // Namespace adicionales para nuestro proyecto
 using System.Text;                  // Namespace adicionales para nuestro proyecto
 

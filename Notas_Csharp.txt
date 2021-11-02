@@ -1,0 +1,101 @@
+Tutorial C#
+
+-----Comandos-----
+
+Write() 	- Este comando nos permite mostrar un mensaje en consola en la misma linea
+WriteLine()	- Este comando nos permite mostrar un mensaje en consola seguido de un salto de linea
+ReadLine()	- Este comando nos permite recibir caracteres desde el teclado finaliza con la tecla Enter
+
+-----Clases C#----- PG 57
+
+convert		- Clase de C# para implementar metodos de conversion de variables
+	ToInt32()	- Convierte una variable de tipo string en int
+	ToSingle()	- Convierte una variable de tipo string en float
+	ToString()	- Convierte una variable de tipo int en string
+
+-----Variables-----
+
+- Las variables deben iniciar sus nombres con letras no simbolos ni numeros
+- Las variables pueden llevar numeros en sus nombres y solo se permite el ' _ ' como simbolo
+- Las variables no pueden llevar acentos en sus nombres
+- C# diferencia entre mayusculas y minusculas 
+
+bool	- Variable de 1 bit que solo puede ser true o false 0 - 1
+byte 	- Numeros enteros de 8 bits positivos
+sbyte	- Numeros enteros de 8 bits divididos a la mitad por +/-
+short 	- Numeros enteros de 16 bits divididos a la mitad por +/-
+ushort	- Numeros enteros de 16 bits solo positivos
+char 	- Almacena un unico caracter en 16 bits
+string  - Almacena una cadena de caracteres en un espacio variable
+int 	- Numeros enteros de 32 bits divididos a la mitad por +/-
+uint	- Numeros enteros de 32 bits solo positivos
+long	- Numeros enteros de 64 bits divididos a la mitad por +/-
+uling 	- Numeros enteros de 64 bits solo positivos
+decimal - Numeros con decimal de hasta 96 bits +/-
+float	- Numeros con decimal de hasta 128 bits +/-
+double 	- Numeros con decimal de hasta 1024 bits +/-
+
+-----Comentarios-----
+
+- Los comentarios se identifican con la denominacion // y son ignorados por el compilador hasta el final de la linea
+- Un bloque de comentarios se asigna con la denominacion /* para abrirlo y */ para cerrarlo
+
+-----Mostrar el contenido de las variables------
+
+- Se puede utilizar los comandos Write() y WriteLine()
+- podemos imprimir una lista de variables definiendo un indice: 
+	Console.WriteLine("La primera es {0} y la segunda es {}",costo,valor);
+		donde {} indica un indice y los valores 0 y 1 a costo y valor respectivamente
+		
+-----Operaciones Aritmeticas-----
+
+= 	- Operacion asignacion
++ 	- Operacion suma
+-	- Operacion resta
+*	- Operacion multiplicacion
+/	- Operacion division
+%	- Operacion modulo
+
+- 	La procedencia o mayor peso en las operaciones aritmeticas es la siguiente:	*	/	%	+	-
+-	Es recomendable el uso de ( ) para dar orden a las operaciones aritmeticas
+
+-----Operadores relacionales------
+
+==	- Operador igualdad
+!=	- Operador no igual
+>	- Operador mayor que
+<	- Operador menor que
+>=	- Operador igual o mayor que 
+<=	- Operador igual o menor que
+
+-	El resultado de estos operadores siempre muestra un valor booleano (true -false)
+
+-----Expresiones logicas------
+
+&&	- Operador logico AND
+||	- Operador logico OR
+!	- Operador logico NOT
+
+-----Estructuras Selectivas------
+
+if		- Estructura condicional if
+else	- Estructura condicional else usada posteriormente de no cumplirse un if
+if else	- Estructura condicional if else usada posteriormente de ejecutar un if
+switch	- Estructura selectiva switch que requiere una variable y varios casos
+for		- ciclo for - necesita variables de control y ejecuta una cantidad de veces un bloque de comandos 
+					- Puede iniciar contador con numeros negativos
+do while	- ciclo do while - Ejecuta una cantidad de veces un bloque de comandos en un numero de veces desconocido
+							 - El ciclo se repite mientas una condicion no sea verdadera "true"
+							 - Siempre ejecuta por lo menos una vez el bloque de comandos
+while	- ciclo while - Ejecuta una cantidad de veces un bloque de comandos en un numero de veces desconocido
+					  - El ciclo se repite mientas una condicion no sea verdadera "true"
+					  - Puede no ejecutar ninguna vez el bloque de comandos
+-----Incremento y decremento-----
+
+++	- Incrementa en 1
+--	- Decremento en 1
++=	- Incremento en un valor determinado +=4
+-=	- Decremento en un valor determinado -=5
+*=	- Multiplica en un valor determinado *=3
+/=	- Divide en un valor determinado /=6
+
